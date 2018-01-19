@@ -8,7 +8,7 @@ html, body{
 	margin:0;
 	font-size: 100%;
 	background: #fff;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 }
 body a {
 	text-decoration:none;
@@ -31,7 +31,7 @@ input[type="button"],input[type="submit"]{
 
 h1,h2,h3,h4,h5,h6{
 	margin:0;
-font-family: 'Open Sans', sans-serif;
+font-family: 'Helvetica', sans-serif;
 }	
 p{
 	margin:0;
@@ -598,7 +598,7 @@ a.simpleCart_empty {
 } 
 .carousel-caption h2 span, .carousel-caption h3 span{
     font-weight: 800;
-    color: #2fdab8;
+    color: #1e1e1e;
 }
 .carousel-caption p {
     letter-spacing: 12px;
@@ -1734,7 +1734,7 @@ a.single-item{
 }
 .login-grids p{
 	font-size:14px;
-	text-align:center;
+	text-;
 	margin-top:30px;
 	color:#000;
 }
@@ -2476,6 +2476,7 @@ ol {
 h2.typoh2{
     margin: 0 0 10px;
 }
+
 @media (max-width:800px){
 	.grid_3.grid_5.w3ls,.grid_3.grid_5.w3l,.grid_3.grid_5.agileits,.grid_3.grid_5.agileinfo,.grid_3.grid_5.wthree {
 		margin: 0;
@@ -3066,7 +3067,7 @@ label.checkbox {
     color: #545454;
 }
 .swit input[type="submit"] {
-    background: #232323;
+    background: #efefef;
     color: #fff;
     font-size: 15px;
     border: none;
@@ -3082,7 +3083,7 @@ label.checkbox {
     font-weight: 600;
 }
 .swit input[type="submit"]:hover{
-   background:#2fdab8;	
+   background:#1e1e1e;	
 }
 ul.social-nav.model-3d-0.footer-social.w3_agile_social.single_page_w3ls {
     float: none;
@@ -3452,6 +3453,7 @@ p.w3ls_para {
 		top: 61px;
 		right: 13px;
 	}
+
 }
 @media (max-width: 1366px){
    .multi-gd-img.multi-gd-text h4 {
@@ -3587,6 +3589,39 @@ p.w3ls_para {
 		padding: 13px 0;
 		font-size: 21px;
 	}
+        .comment-section{
+        margin-top: 50px;
+        display: inline-block;
+    }
+    .comment-block{
+        display: none;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .comment-profile{
+        background: #000000;
+        border-radius: 100%;
+        size: 100%;
+    }
+    #loadMore {
+    padding: 10px;
+    text-align: center;
+    background-color: #33739E;
+    color: #fff;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #fff;
+    box-shadow: 0 1px 1px #ccc;
+    transition: all 600ms ease-in-out;
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+    }
+    #loadMore:hover {
+    background-color: #fff;
+    color: #33739E;
+    }
 	.sort-grid {
 		padding: 25px 0;
 	}
